@@ -7,17 +7,61 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="styles/index.css">
+<!-- goole font start -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<!-- goole font end -->
 </head>
-<body>
+<body class="lexend bg-orange-50">
     <header>
-<h1 id="bn">bangladesh</h1>
+<!-- navber start -->
+<div class="navbar  justify-around">
+    <div class=""> 
+        <button class="btn btn-accent text-lg text-[#111111] font-semibold">Blog</button>
+    </div>
+    <div class=" lg:flex space-x-2">
+        <img src="assets/logo.png" alt="">
+        <span class="text-lg text-[#111111] font-semibold">Donate Bangladesh</span>
+    </div>  
+    <div class="space-x-2">
+        <img src="assets/coin.png" alt="">
+        <span class="font-medium text-lg text-[#111111]" id="fifty-thousent">5500 BDT</span>
+    </div>
+</div>
+  
+<!-- navber end -->
     </header>
     <main>
-
+<section class="bg-[#FFFFFF] mx-auto  w-11/12 mt-6">
+<!-- banner-start -->
+<div class=" flex justify-center gap-1 mt-5 ">
+    <div><button class="btn btn-active btn-secondary text-lg font-semibold text-[#111111] rounded-md">Donation</button></div>
+<div><button class="btn btn-success text-lg font-semibold text-[#111111] rounded-md">History</button></div>
+</div>
+<!-- banner-end -->
+ <!-- Donate for Flood at Noakhali, Bangladesh -->
+  <section class="mx-auto  w-10/12 bg-gray-100 mt-24 flex gap-5">
+<div>
+    <img src="assets/noakhali.png" alt="" class="">
+</div>
+<div class="space-y-3">
+    <div class="bg-zinc-100 rounded-md px-4 py-2 w-32">
+        <img src="assets/coin.png" alt="" class="inline ">
+    <span id="bdt">0 BDT</span>
+    </div>
+    <h5 class="text-[#111111] text-sm font-bold">Donate for Flood at Noakhali, Bangladesh</h5>
+    <p> The recent floods in Noakhali have caused significant damage to<br> homes  infrastructure. Your donation will help provide essential<br>  supplies and  to those affected by this disaster. Every contribution,<br>  big or small, makes  difference. Please join us in supporting the relief<br>  efforts and making a positive impact on the lives of those in need.</p>
+    <input type="text" placeholder="Write Donation Amount" class="rounded-md border border-inherit border-solid w-11/12 p-3" id="Donation Amount">
+    <button class="btn btn-active btn-secondary w-11/12" id="Donate-btn">Donate Now</button>
+</div>
+  </section>
+ <!-- Donate for Flood at Noakhali, Bangladesh -->
+</section>
     </main>
     <footer>
-
     </footer>
+    <script src="js/utilities.js"></script>
 <script src="js/index.js"></script>    
 </body>
 </html>
