@@ -4,7 +4,8 @@ document.getElementById('Donation').addEventListener('click', function(){
     
 })
 document.getElementById('his').addEventListener('click', function(){
-    showSectionById('History');
-    
-    
+    showSectionById('History');   
+})
+document.getElementById('blog').addEventListener('click', function(){
+    showSectionById('faq');   
 })

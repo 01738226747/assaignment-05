@@ -15,6 +15,7 @@ function getTextFieldValueById(id){
 function showSectionById(id){
     document.getElementById('sub').classList.add('hidden');
     document.getElementById('History').classList.add('hidden');
+    document.getElementById('faq').classList.add('hidden');
     // document.getElementById('Quota').classList.add('hidden');
     document.getElementById(id).classList.remove('hidden');
 
