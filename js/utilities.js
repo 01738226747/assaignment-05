@@ -9,3 +9,13 @@ function getTextFieldValueById(id){
     const bdtN = parseFloat(bdt);
     return bdtN;
 }
+// function showSectionById(id){
+//     // document.getElementById('sub')
+// }
+function showSectionById(id){
+    document.getElementById('sub').classList.add('hidden');
+    document.getElementById('History').classList.add('hidden');
+    // document.getElementById('Quota').classList.add('hidden');
+    document.getElementById(id).classList.remove('hidden');
+
+}
